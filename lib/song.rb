@@ -33,7 +33,7 @@ class Song
     hash
   end
 
-def Song.genre_count
+  def Song.artist_count
     hash = Hash.new(0)
     @@artists.each{|key| hash[key] += 1}
     hash
