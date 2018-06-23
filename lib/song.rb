@@ -31,7 +31,6 @@ class Song
     hash = Hash.new(0)
     @@genres.each{|key| hash[key] += 1}
     hash
-    end
   end
   
 end
