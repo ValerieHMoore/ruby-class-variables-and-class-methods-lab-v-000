@@ -32,5 +32,11 @@ class Song
     @@genres.each{|key| hash[key] += 1}
     hash
   end
+
+def Song.genre_count
+    hash = Hash.new(0)
+    @@artists.each{|key| hash[key] += 1}
+    hash
+  end
   
 end
